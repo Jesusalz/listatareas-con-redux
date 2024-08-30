@@ -13,7 +13,7 @@ const TaskLoader = () => {
         const data = await response.json();
         
        
-        const limitedData = data.slice(0, 25);
+        const limitedData = data.slice(0, 8);
         
         
         dispatch(setTasks(limitedData));
